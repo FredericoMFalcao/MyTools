@@ -1,0 +1,19 @@
+v4.0 - AUTO DOCUMENTATION
+
+- New dir "doc/"
+
+- Creates a PDF file with documention of the current project
+
+- Includes a script to fetch information from the source code
+
+v4.1 - Include a script to list all global variables
+
+v4.2 - Includes CHANGE LOG ( the description of all previous commits, i.e. git log output)
+
+v4.3 - Includes source code
+	- the template files inside modules (*.tpl.c)
+	- the main script to trigger the make process (i.e. Makefile)
+
+
+
+

@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage[]{fullpage}
+\usepackage{color}
+\usepackage{graphicx}
+
+\usepackage[utf8]{inputenc}
+\usepackage{textalpha}
+
+\usepackage{hyperref}
+\usepackage{verbatim}
+
+\usepackage[parfill]{parskip}
+
+\input{CodeStylesAndColours.tex}
+
+\begin{document}
+
+\title{C Static Analyzer\\ Backend Specifications}
+\author{Frederico Falcao}
+\date{v0.3 \\ Nov 2019}
+\maketitle
+\begin{center}
+	%\includegraphics[scale=0.125]{WorldCup2018Logo.png}
+\end{center}
+
+\newpage
+\section*{Global Variables}
+\input{global-variables.tex}
+
+\newpage
+\section*{Makefile}
+\lstinputlisting[language=make]{../Makefile}
+
+\newpage
+\section*{Main.tpl.c}
+\lstinputlisting[language=c]{../main.tpl.c}
+
+\newpage
+\section{BACKLOG}
+
+\verbatiminput{../BACKLOG}
+
+\newpage
+\newpage
+
+\end{document}
